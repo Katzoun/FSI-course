@@ -3,7 +3,7 @@ t = out.ScopeData.time;
 x_ode4= out.ScopeData.signals.values;
 close all
 
-plot(t,x, 'LineWidth',2)
+plot(t,x_ode1, 'LineWidth',2)
 hold on
 grid on
 plot(t,x_ode4, 'LineWidth',2)
